@@ -67,6 +67,38 @@ const GalleryPage = () => {
         </div>
       </section>
 
+      {/* video section */}
+
+      <section className="max-w-7x1 mx-auto px-4 sm:px-6 lg:px-8 mb-20">
+        <div className="relative w-full h-[420px] sm:h-[620px] overflow-hidden rounded-3x1 bg-black shadow-2x1">
+          <video className="absolute inset-0 w-full h-full object-cover"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload='metadata'
+          >
+            <source src="/videos/gallery-ambiance.mp4"
+            type="video/mp4"
+            />
+             Your browser does not support the video tag.
+          </video>
+          <div className="absolute inset-0 bg-black/35"/>
+          <div className="absolute inset-0 flex items-center justify-center text-center px-6">
+            <div className="max-w-3x1">
+              <span className="text-primary text-xs sm:text-sm font-semibold tracking-[0.25em] uppercase block md-4">
+                Experience The Venue
+              </span>
+              <h2 className="Font-serif text-xs sm:text-5x1 lg:text-6x1 font-bold leading-tight">
+                Where Every Celebration
+                 <br />
+                 Become A Memory
+              </h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* GALLERY MASONRY / GRID */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {filteredGallery.length === 0 ? (
