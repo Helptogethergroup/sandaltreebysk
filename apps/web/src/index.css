@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  overflow-x: clip;
+  background-color: hsl(240 10% 8%);
+  color: hsl(0 0% 95%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Cormorant Garamond", serif;
+  text-wrap: balance;
+}
+
+@layer base {
+  :root {
+    /* Luxury Dark Palette as default theme */
+    --background: 240 10% 8%;
+    --foreground: 0 0% 95%;
+    
+    /* Champagne Gold Primary */
+    --primary: 38 60% 55%;
+    --primary-foreground: 240 10% 8%;
+    
+    /* Deep Charcoal Secondary */
+    --secondary: 240 10% 12%;
+    --secondary-foreground: 0 0% 95%;
+    
+    /* Rose/Blush Accent */
+    --accent: 350 40% 85%;
+    --accent-foreground: 240 10% 10%;
+    
+    --card: 240 9% 11%;
+    --card-foreground: 0 0% 95%;
+    
+    --muted: 240 8% 16%;
+    --muted-foreground: 240 5% 65%;
+    
+    --border: 38 30% 22%;
+    --input: 240 8% 18%;
+    --ring: 38 60% 55%;
+    
+    --popover: 240 9% 11%;
+    --popover-foreground: 0 0% 95%;
+    
+    --destructive: 0 75% 60%;
+    --destructive-foreground: 0 0% 98%;
+    
+    --radius: 1rem;
+  }
+  
+  .dark {
+    --background: 240 10% 8%;
+    --foreground: 0 0% 95%;
+    --primary: 38 60% 55%;
+    --primary-foreground: 240 10% 8%;
+    --secondary: 240 10% 12%;
+    --secondary-foreground: 0 0% 95%;
+    --accent: 350 40% 85%;
+    --accent-foreground: 240 10% 10%;
+    --card: 240 9% 11%;
+    --card-foreground: 0 0% 95%;
+    --muted: 240 8% 16%;
+    --muted-foreground: 240 5% 65%;
+    --border: 38 30% 22%;
+    --input: 240 8% 18%;
+    --ring: 38 60% 55%;
+    --popover: 240 9% 11%;
+    --popover-foreground: 0 0% 95%;
+    --destructive: 0 75% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --radius: 1rem;
+  }
+}
