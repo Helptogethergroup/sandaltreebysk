@@ -76,10 +76,10 @@ const AmenitiesPage = () => {
 
             <div className="grid grid-cols-2 gap-4">
               <div className="aspect-square rounded-2xl overflow-hidden shadow-lg border border-border">
-                <img src="https://images.unsplash.com/photo-1698934641149-93431f3bd4f7" alt="Catering Setup" className="w-full h-full object-cover" />
+                <img src="/images/DSC_0296.JPG" alt="Catering Setup" className="w-full h-full object-cover" />
               </div>
               <div className="aspect-square rounded-2xl overflow-hidden shadow-lg border border-border mt-8">
-                <img src="https://images.unsplash.com/photo-1679526758968-23952a1bece9" alt="Decor Detail" className="w-full h-full object-cover" />
+                <img src="/images/DSC_0294.JPG" alt="Decor Detail" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>
